@@ -25,6 +25,7 @@ main {
 
 .logo a {
     color: #8750B8;
+    text-decoration: none;
 }
 
 .navBar {
@@ -80,6 +81,7 @@ footer ul a{
 .footerMedia a img{
     width: 27px;
 }
+
 
 
 
@@ -237,6 +239,24 @@ main */
 /* Media querys Index */
 
 @media(max-width:768px){
+    .headerIndex{
+        padding: .5rem;
+    }
+    .navBar li a{
+        font-size: .8rem;
+    }
+    .navBar li {
+        list-style: none;
+        margin: .7rem;
+    }
+    .logo a img{
+        width: 5rem;
+    }
+    
+    .logo a{
+        font-size: .9rem;
+        text-decoration: none;
+    }
     .divEdge {
         background-color: #252e31;
         text-align: center;
@@ -244,17 +264,50 @@ main */
         padding: 0rem .5rem;
     }
     footer{
-        font-size: .8rem;
-        padding: 7px;
+        font-size: .6rem;
+        padding: .4125rem;
+    }
+    .footerFormContainer{
+        padding: 0rem;
+    }
+    .footerForm{
+        min-width: 205px;
+        padding: 0rem;
     }
     footer ul a{
         display: none;
     }
+    .footerInputEmail{
+        width: 7rem;
+    }
+    
+    .footerForm .sendForm {
+        width: 1.6875rem;
+    }
+    
+    .footerMedia{
+        text-align: center;
+    }
+    .footerMedia a img{
+        width: 1rem;
+    }
+
+
     .indexMain{
         height: 25rem;
     }
+    .firstImg h2{
+        font-size: 1.3rem;
+    }
+    .secondImg h2{
+        font-size: 1.3rem;
+    }
+    .thirdImg h2{
+        font-size: 1.3rem;
+    }
     .indexRooms{
-        font-size: .7rem;
+        font-size: .6rem;
+        margin: 0rem;
     }
     .divFirstRoom img {
         width: 10rem;
@@ -268,14 +321,32 @@ main */
         width: 10rem;
         height: 10rem;
     }
+
+    .roomSection {
+        width: 90%;
+        height: 10rem;
+        margin: 1rem;
+    }
+    
 }
 
 @media(max-width:425px){
-    .navBar a {
-        font-size: .8rem;
+    .navBar li{
+        display: none;
+    }
+    .headerIndex .logo{
+        margin: auto;
+    }
+    
+    .logo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logo a {
+        color: #8750B8;
     }
 }
-
 
 /* Futurix 
 main section*/
