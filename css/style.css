@@ -255,11 +255,11 @@ main */
         list-style: none;
         margin: .7rem;
     }
-    .headerMenu .logo a img{
+    .headerMenu .headerLogo a img{
         width: 5rem;
     }
     
-    .headerMenu .logo a{
+    .headerMenu .headerLogo a{
         font-size: .9rem;
         text-decoration: none;
     }
@@ -354,6 +354,48 @@ main */
     }
     .headerMenu #toggle:checked ~ .navBar{
         height: 100%;
+    }
+    .headerMenu .headerLogo a img{
+        width: 3.5rem;
+    }
+    .headerMenu .headerLogo a{
+        font-size: .56rem;
+        text-decoration: none;
+    }
+
+    .indexMain{
+        height: 17rem;
+    }
+    .firstImg h2{
+        font-size: .9rem;
+    }
+    .secondImg h2{
+        font-size: .9rem;
+    }
+    .thirdImg h2{
+        font-size: .9rem;
+    }
+    .indexRooms{
+        font-size: .4rem;
+        margin: 0rem;
+    }
+    .divFirstRoom img {
+        width: 10rem;
+        height: 10rem;
+    }
+    .divSecondRoom img {
+        width: 10rem;
+        height: 10rem;
+    }
+    .divThirdRoom img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .roomSection {
+        width: 90%;
+        height: 10rem;
+        margin: 1rem;
     }
 
 }
