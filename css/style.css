@@ -11,19 +11,21 @@ main {
 
 /* Header */
 .headerIndex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%;
     background-color: #2A2929;
     padding: 1rem;
 }
 
-.headerIndex .logo {
+.headerIndex .headerMenu .headerLogo {
     display: flex;
     flex-direction: column;
 }
-
-.headerIndex .logo a {
+.headerIndex .headerMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerIndex .headerLogo a {
     color: #8750B8;
     text-decoration: none;
 }
