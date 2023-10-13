@@ -18,32 +18,35 @@ main {
     padding: 1rem;
 }
 
-.logo {
+.headerIndex .logo {
     display: flex;
     flex-direction: column;
 }
 
-.logo a {
+.headerIndex .logo a {
     color: #8750B8;
     text-decoration: none;
 }
 
-.navBar {
+.headerMenu .navBar {
     display: flex;
     
 }
 
-.navBar li {
+.headerMenu .navBar li {
     list-style: none;
     margin: 1.3rem;
 }
 
-.navBar a {
+.headerMenu .navBar a {
     text-decoration: none;
     color: #DFDADA;
     font-size: 1.4rem;
 }
 
+nav #toggle, nav label{
+    display: none;
+}
 
 /* footer */
 footer {
@@ -135,7 +138,7 @@ main */
     box-shadow: 1px 1px .625rem black;
 }
 .secondImg h2 {
-    background-image: url(../assets/img/horror.avif);
+    background-image: url(../assets/img/horror.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -242,18 +245,18 @@ main */
     .headerIndex{
         padding: .5rem;
     }
-    .navBar li a{
+    .headerMenu .navBar li a{
         font-size: .8rem;
     }
-    .navBar li {
+    .headerMenu .navBar li {
         list-style: none;
         margin: .7rem;
     }
-    .logo a img{
+    .headerMenu .logo a img{
         width: 5rem;
     }
     
-    .logo a{
+    .headerMenu .logo a{
         font-size: .9rem;
         text-decoration: none;
     }
@@ -331,21 +334,11 @@ main */
 }
 
 @media(max-width:425px){
-    .navBar li{
-        display: none;
-    }
     .headerIndex .logo{
         margin: auto;
     }
     
-    .logo {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .logo a {
-        color: #8750B8;
-    }
+
 }
 
 /* Futurix 
