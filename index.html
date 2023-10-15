@@ -33,14 +33,44 @@
             <h1>SEDES</h1>
         </div>
         <section class="indexMain">
-            <div class="firstImg">
-                <a href="./pages/sedes.html"><h2>Caballito</h2></a>
+            <div class="indexCarouselItem" id="carouselItem-1">
+                <div class="cardCarouselItem">
+                    <a href="./pages/sedes.html"><h2 class="carouselItem_1-h2">Caballito</h2></a>
+                </div>
+                <div class="arrowsCarouselItem">
+                    <a href="#carouselItem-3">
+                        <i class="fas fa-chevron-left">L</i>
+                    </a>
+                    <a href="#carouselItem-2">
+                        <i class="fas fa-chevron-right">R</i>
+                    </a>
+                </div>
             </div>
-            <div class="secondImg">
-                <a href="./pages/sedes.html"><h2>Palermo</h2></a>
-            </div>    
-            <div class="thirdImg">
-                <a href="./pages/sedes.html"><h2>Belgrano</h2></a>
+            <div class="indexCarouselItem" id="carouselItem-2">
+                <div class="cardCarouselItem">
+                    <a href="./pages/sedes.html"><h2 class="carouselItem_2-h2">Palermo</h2></a>
+                </div>
+                <div class="arrowsCarouselItem">
+                    <a href="#carouselItem-1">
+                        <i class="fas fa-chevron-left">L</i>
+                    </a>
+                    <a href="#carouselItem-3">
+                        <i class="fas fa-chevron-right">R</i>
+                    </a>
+                </div>
+            </div>
+            <div class="indexCarouselItem" id="carouselItem-3">
+                <div class="cardCarouselItem">
+                    <a href="./pages/sedes.html"><h2 class="carouselItem_3-h2">Belgrano</h2></a>
+                </div>
+                <div class="arrowsCarouselItem">
+                    <a href="#carouselItem-2">
+                        <i class="fas fa-chevron-left">L</i>
+                    </a>
+                    <a href="#carouselItem-1">
+                        <i class="fas fa-chevron-right">R</i>
+                    </a>
+                </div>
             </div>
         </section>
         <section>
@@ -98,7 +128,7 @@
         <div class="footerFormContainer">
             <form class="footerForm">
                 <label for="email">NESWLETTER</label>
-                <input type="email" class="footerInputEmail">
+                <input type="email" name="email" class="footerInputEmail" id="email">
                 <input type="image" src="./assets/img/correo-electronico.png" class="sendForm">
             </form>
         </div>
