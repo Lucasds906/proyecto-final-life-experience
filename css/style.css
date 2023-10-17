@@ -114,7 +114,7 @@ main */
 }
 
 #carouselItem-1 {
-    background-image: url(../assets/img/plano-medio-mujer-velo-negro.jpg);
+    background-image: url(../assets/img/mujer-velo-400x600.jpg);
     background-size: cover;
     background-position: center;
     width: 25%;
@@ -138,7 +138,7 @@ main */
 
 
 #carouselItem-2 {
-    background-image: url(../assets/img/horror.jpg);
+    background-image: url(../assets/img/horror-400x550.jpg);
     background-size: cover;
     background-position: center;
     width: 37%;
@@ -164,7 +164,7 @@ main */
 
 
 #carouselItem-3 {
-    background-image: url(../assets/img/callejon-abandonado-hospital-psiquiatrico.jpg);
+    background-image: url(../assets/img/callejon-abandonado-hospital-749x500.jpg);
     background-size: cover;
     background-position: center;
     width: 25%;
@@ -467,13 +467,13 @@ main section*/
     display: inline-block;
 }
 
-.img1 {
+.futurixImg1 {
     width: 50%;
     object-fit: cover;
     float: left;
 }
 
-.img2 {
+.futurixImg2 {
     width: 50%;
     object-fit: cover;
     float: right;
@@ -504,18 +504,85 @@ main*/
 
 .mainBookings {
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 6rem 5rem 20rem 35rem 20rem;
+    grid-template-areas: 
+    "item1 item1 item1 item1 item1"
+    "item2 item2 item2 item2 item2"
+    "item3 item4 item5 item6 item6"
+    "item7 item8 item8 item8 item10"
+    "item9 item9 item9 item9 item9"
+    ;
+    gap: .625rem;
+}
+.mainBookings h1{
+    grid-area: item1;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #b87f50;
+    padding-top: 1.25rem;
+}
+.mainBookings p{
+    grid-area: item2;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #BCB9B9;
+}
+.bookingsForm{
+    grid-area: item3;
+    color: #BCB9B9;
+    font-size: 1.3rem;
     text-align: center;
 }
-
-.bookingsTitle h1 {
-    color: #b87f50;
-    font-size: 4.5rem;
+.bookingsForm form{    
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    gap: .625rem;
 }
+.bookingsForm form input{
+    margin: auto;
+}
+.img1{
+    grid-area: item4;
+}
+.img2{
+    grid-area: item5;
+    }
+.img3{
+    grid-area: item6;
+}
+.mainBookings a img{
+    width: 100%;
+    height: 100%;
+}
+
+.bookingRooms{
+    grid-area: item8;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
+}
+.bookingRooms a{
+    margin: auto;
+    width: 90%;
+    height: 90%;
+}
+.bookingSchedule{
+    grid-area: item9;
+}
+
+
+/* 
 
 .bookingsTitle p {
     padding-top: 2rem;
-    font-size: 1.6rem;
-    color: #BCB9B9;
+    
     display: inline-block;
 }
 
@@ -524,7 +591,7 @@ main*/
     text-align: center;
 }
 .bookingsForm form {
-    margin: 1rem 2rem;
+    
 }
 .bookingsForm form label{
     color: #BCB9B9;
@@ -541,9 +608,7 @@ main*/
     font-size: 1.6rem;
 }
 
-
-
-.bookingRooms a img {
+.bookingSedes a img {
     width: 18%;
     height: 25rem;
     object-fit: cover;
@@ -561,7 +626,7 @@ main*/
 .bookingTimetable a {
     text-decoration: none;
     color: #b87f50;
-}
+} */
 
 /* F.A.Q. */
 
