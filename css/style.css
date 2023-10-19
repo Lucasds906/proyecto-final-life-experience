@@ -444,6 +444,136 @@ secondary section */
 }
 /* Bookings main*/
 
+/* F.A.Q. */
+
+.faqMainSection h1 {
+    color: #b87f50;
+    text-align: center;
+    padding: 30px;
+    font-size: 3rem;
+}
+
+.faqQuestions {
+    width: 49%;
+    margin-left: 2rem;
+}
+
+.faqQuestions h2 {
+    color: #b87f50;
+    font-size: 2rem;
+}
+
+.faqQuestions a {
+    text-decoration: none;
+}
+
+.faqQuestions p {
+    color: #BCB9B9;
+    font-size: 1.3rem;
+}
+
+.faqMainSection {
+    background-image: url(../assets/img/scape-room.webp);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* contacto */
+
+.contactMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3.125rem;
+    color: #b87f50;
+}
+
+.contactNumber {
+    color: #b87f50;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.contactNumber a {
+    color: #BCB9B9;
+    text-decoration: none;
+}
+
+.contactForm {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #333;
+    padding: 20px;
+    border: 20px solid #000;
+    outline: 4px dashed #b87f50;
+    max-width: 50%;
+    margin: 3.125rem auto;
+    flex-grow: 1;
+}
+
+.contactFormInput {
+    min-width: 340px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    order: 5;
+}
+
+.contactFormInput .formInput {
+    width: 100%;
+    padding: .4375rem;
+    margin: .375rem 0;
+    border: none;
+    border-bottom: 3px solid #b87f50;
+    background: transparent;
+    color: #fff;
+}
+
+.contactFormInput .formInput:focus {
+    background: linear-gradient(to bottom, transparent, #222);
+    outline: none;
+    border-bottom: 3px solid #5bf;
+}
+
+.contactFormInput textarea {
+    min-height: 9rem;
+    resize: none;
+}
+
+.contactFormImg {
+    flex: 1;
+    display: flex;
+    padding: .625rem;
+    min-width: 18.75rem;
+    max-width: 25rem;
+    order: 2;
+}
+
+.contactFormImg img {
+    width: 100%;
+    margin: auto;
+    max-width: 12.5rem;
+}
+
+.contactFormInput input[type="submit"] {
+    background: #5bf;
+    border-bottom: none;
+    padding: 12px;
+}
+
+.contactFormInput input[type="submit"]:hover {
+    background: #57f;
+    border-bottom: none;
+    padding: 12px;
+}
+
+.contactFormInput input[type="submit"]:active {
+    background: linear-gradient(to bottom, #5bf, #57f);
+    box-shadow: #111;
+}
 /* Media querys */
 /* HEADER */
 @media(max-width:768px) {
@@ -837,134 +967,4 @@ secondary section */
     .card h2 {
         font-size: .8rem;
     }
-}
-/* F.A.Q. */
-
-.faqMainSection h1 {
-    color: #b87f50;
-    text-align: center;
-    padding: 30px;
-    font-size: 3rem;
-}
-
-.faqQuestions {
-    width: 49%;
-    margin-left: 2rem;
-}
-
-.faqQuestions h2 {
-    color: #b87f50;
-    font-size: 2rem;
-}
-
-.faqQuestions a {
-    text-decoration: none;
-}
-
-.faqQuestions p {
-    color: #BCB9B9;
-    font-size: 1.3rem;
-}
-
-.faqMainSection {
-    background-image: url(../assets/img/scape-room.webp);
-    background-size: 50% 100%;
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
-/* contacto */
-
-.contactMain {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 3.125rem;
-    color: #b87f50;
-}
-
-.contactNumber {
-    color: #b87f50;
-    margin: 1rem;
-    font-size: 1.5rem;
-}
-
-.contactNumber a {
-    color: #BCB9B9;
-    text-decoration: none;
-}
-
-.contactForm {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    background: #333;
-    padding: 20px;
-    border: 20px solid #000;
-    outline: 4px dashed #b87f50;
-    max-width: 50%;
-    margin: 3.125rem auto;
-    flex-grow: 1;
-}
-
-.contactFormInput {
-    min-width: 340px;
-    flex: 1;
-    text-align: center;
-    padding: 30px;
-    order: 5;
-}
-
-.contactFormInput .formInput {
-    width: 100%;
-    padding: .4375rem;
-    margin: .375rem 0;
-    border: none;
-    border-bottom: 3px solid #b87f50;
-    background: transparent;
-    color: #fff;
-}
-
-.contactFormInput .formInput:focus {
-    background: linear-gradient(to bottom, transparent, #222);
-    outline: none;
-    border-bottom: 3px solid #5bf;
-}
-
-.contactFormInput textarea {
-    min-height: 9rem;
-    resize: none;
-}
-
-.contactFormImg {
-    flex: 1;
-    display: flex;
-    padding: .625rem;
-    min-width: 18.75rem;
-    max-width: 25rem;
-    order: 2;
-}
-
-.contactFormImg img {
-    width: 100%;
-    margin: auto;
-    max-width: 12.5rem;
-}
-
-.contactFormInput input[type="submit"] {
-    background: #5bf;
-    border-bottom: none;
-    padding: 12px;
-}
-
-.contactFormInput input[type="submit"]:hover {
-    background: #57f;
-    border-bottom: none;
-    padding: 12px;
-}
-
-.contactFormInput input[type="submit"]:active {
-    background: linear-gradient(to bottom, #5bf, #57f);
-    box-shadow: #111;
 }
