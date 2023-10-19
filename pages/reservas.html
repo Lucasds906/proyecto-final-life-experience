@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Life Experience</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../assets/img/logo.png">
 </head>
@@ -30,32 +30,23 @@
     </header>
     <main>
         <section class="mainBookings">
-
-            <h1 class="gridItem1">Reservá tu sala</h1>
-
-            <p class="gridItem2">Las reservas se hacen con un mínimo de dos horas de anticipación y dejando una seña de al menos mil pesos.</p>
-
+            <h1>Reservá tu sala</h1>
+            <p>Las reservas se hacen con un mínimo de dos horas de anticipación y dejando una seña de
+                al menos mil pesos.</p>
             <div class="bookingsForm">
                 <form action="">
                     <label for="calendario">Elegí tu fecha</label>
                     <input type="date" id="calendario">
                     <label for="jugadores">Jugadores</label>
                     <input type="number" min="1" max="8" placeholder="0" id="jugadores">
-                </form>   
-                <i>Valor:$</i>             
+                </form>
+                <i>Valor:$</i>
             </div>
-
-            
-    
-            
-                        <a href="#sedeSeleccionada">Caballito<img src="../assets/img/mujer-velo-400x600.jpg" alt="mujer velo negro"  class="img1"></a>
-       
-                        <a href="#sedeSeleccionada">Palermo<img src="../assets/img/horror-400x550.jpg" alt="terror" class="img2"></a>
-     
-                        <a href="#sedeSeleccionada">Belgrano<img src="../assets/img/callejon-abandonado-hospital-749x500.jpg" alt="pasillo hospital abandonado" class="img3"></a>
-          
-          
-
+            <div class="bookingSedes">
+            <a href="#sedeSeleccionada">Caballito<img src="../assets/img/mujer-velo-400x600.jpg" alt="mujer velo negro" class="img1"></a>
+            <a href="#sedeSeleccionada">Palermo<img src="../assets/img/horror-400x550.jpg" alt="terror" class="img2"></a>
+            <a href="#sedeSeleccionada">Belgrano<img src="../assets/img/callejon-abandonado-hospital-749x500.jpg" alt="pasillo hospital abandonado" class="img3"></a>
+            </div>
             <div class="bookingRooms">
                 <article class="card ">
                     <div>
@@ -99,10 +90,31 @@
                     <h2>Sala 6</h2>
                     <button><a href="">Reservar</a></button>
                 </article>
+                <article class="card ">
+                    <div>
+                        <img src="../assets/img/mujer-velo-400x600.jpg" alt="">
+                    </div>
+                    <h2>Sala 7</h2>
+                    <button><a href="">Reservar</a></button>
+                </article>
+                <article class="card ">
+                    <div>
+                        <img src="../assets/img/mujer-velo-400x600.jpg" alt="">
+                    </div>
+                    <h2>Sala 8</h2>
+                    <button><a href="">Reservar</a></button>
+                </article>
+                <article class="card ">
+                    <div>
+                        <img src="../assets/img/mujer-velo-400x600.jpg" alt="">
+                    </div>
+                    <h2>Sala 9</h2>
+                    <button><a href="">Reservar</a></button>
+                </article>
             </div>
-            <i id="sedeSeleccionada">Caballito</i>
-                <div class="bookingSchedule">
-                    <h2>Viernes 15 de Octubre</h2>
+            <div class="bookingSchedule">
+                <i id="sedeSeleccionada">Caballito</i>
+                <h2>Viernes 15 de Octubre</h2>
                 <ul>
                     <li><a href="">13h disponible</a></li>
                     <li><a href="">14h disponible</a></li>
@@ -115,20 +127,11 @@
                     <li><a href="">21h disponible</a></li>
                     <li><a href="">22h disponible</a></li>
                 </ul>
-                </div>
-        </section>
-            
-    
-        
-        
-            <div>
-
             </div>
         </section>
     </main>
     <footer>
         <div>
-
             <h4>SUCURSALES</h4>
             <ul>
                 <li>Av. Triunvirato 2521, Belgrano</li>
@@ -138,16 +141,24 @@
         </div>
         <div>
             <ul>
-                <a href=""><li>EVENTOS</li></a>
-                <a href=""><li>INFO ADICIONAL</li></a>
-                <a href=""><li>RECLAMOS</li></a>
-                <a href=""><li>COMUNIDAD</li></a>
+                <a href="">
+                    <li>EVENTOS</li>
+                </a>
+                <a href="">
+                    <li>INFO ADICIONAL</li>
+                </a>
+                <a href="">
+                    <li>RECLAMOS</li>
+                </a>
+                <a href="">
+                    <li>COMUNIDAD</li>
+                </a>
             </ul>
         </div>
         <div class="footerFormContainer">
             <form class="footerForm">
                 <label for="email">NESWLETTER</label>
-                <input type="email" name="email" class="footerInputEmail" id="email">
+                <input type="email" name="email" class="footerInputEmail" id="email" placeholder="Newsletter">
                 <input type="image" src="../assets/img/correo-electronico.png" class="sendForm">
             </form>
         </div>
