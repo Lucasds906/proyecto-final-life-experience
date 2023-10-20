@@ -1,66 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Life Experience</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" href="../assets/img/logo.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life Experience</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" href="../assets/img/logo.png">
 </head>
 <body>
-    <header class="headerIndex">
-        <nav class="headerMenu">
-            <div class="headerLogo">
-                <a href="../index.html"><img src="../assets/img/logo.png" alt=""></a>
-                <a href="../index.html">Life Experience</a>
+  <header class="container-fluid bg-primary d-flex justify-content-center">
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light p-3" id="menu">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <span class="fs-5 fw-bold">ExpertD.</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <section>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#equipo">Equipo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#seccion-contacto">Contactos</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="Suscribete">
+                <button class="btn btn-primary btn-primary-outline-success" type="button">Suscribete</button>
+              </form>
             </div>
-            <input type="checkbox" name="" id="toggle">
-            <label for="toggle"><i class="material-icons">menu</i></label>
-            <div class="navBar">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="#">Sedes</a></li>
-                    <li><a href="f.a.q.html">F.A.Q.</a></li>
-                    <li><a href="reservas.html">Reservas</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
+          </section>
+        </div>
+      </nav>
+    </section>
+  </header>
+  <main class="mainBootstrap">
+    <section>
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="../assets/img/foto-boots-1.jpg" class="d-block w-100" alt="teclado">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../assets/img/foto-boots-2.jpg" class="d-block w-100" alt="laptop primer plano">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../assets/img/foto-boots-3.jpg" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto"
+      id="intro">
+      <h1 class="p-3 fs-2 border-top border-3">Una agencia única para todas tus necesidades de <span
+          class="text-primary">Marketing Digital<span /></h1>
+      <p class="p-3  fs-4">
+        <span class="text-primary">ExpertD.</span> es la agencia donde te ayudamos establecer tu presencia online. SEO,
+        paginas WEB, tiendas virtuales, redes sociales
+      </p>
+    </section>
+    <section class="w-100">
+      <article>
+        <div class="row w-75 mx-auto" id="servicios-fila-1">
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="../assets/img/md.png" alt="desarrollo" width="180" height="160">
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1">Desarrollo</h3>
+              <p class="px-4">Desarrollo de aplicaciones WEB, moviles y ecommerce</p>
             </div>
-        </nav>
-    </header>
-    <main>
-                 
-    </main>
-    <footer>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="../assets/img/md.png" alt="concepto" width="180" height="160">
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Branding</h3>
+              <p class="px-4">Diseño, Conceptualización e Implementación de productos digitales</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="../assets/img/md.png" alt="comunicaciones" width="180" height="160">
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1">Comunicaciones</h3>
+              <p class="px-4">Desarrollo del plan de comunicaciones para sus clientes.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="../assets/img/md.png" alt="seo" width="180" height="160">
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1">SEO</h3>
+              <p class="px-4">Analizamos la eficiencia y optimizamos los sitios WEB</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section>
+      <div class="container w-50 m-auto text-center" id="equipo">
+        <h1 class="mb-5 fs-2">Equipo pequeño con <span class="text-primary">resultados Grandes</span>.</h1>
+        <p class="fs-4 ">Siempre buscamos las personas adecuadas para que trabajen con nosotros. Si te sientes listo
+          para este reto, te esperamos para que te unas a nosotros.</p>
+      </div>
+      <div class="mt-5 text-center">
+        <img id="img-equipo"
+          src="https://plus.unsplash.com/premium_photo-1661274209157-118069b926f3?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="equipo">
+      </div>
+      <div id="local" class="border-top border-2">
+        <div class="mapa"> </div>
         <div>
-            <h4>SUCURSALES</h4>
-            <ul>
-                <li>Av. Triunvirato 2521, Belgrano</li>
-                <li>Santa Fé 3452, Palermo</li>
-                <li>Yerbal 353, Caballito</li>
-            </ul>
+          <div class="wrapper-local">
+            <h2>Ubicado en CABA, Buenos Aires</h2>
+            <h2 class="text-primary mb-4" id="typewriter"></h2>
+            <p class="fs-5 text-body">Elijimos CABA para nuestra oficina con el objetivo de estar cerca a nuestros
+              clientes. Estamos ubicados en el corazon y el centro financiero de Buenos Aires, cerca de los mejores
+              restaurantes, tiendas y cerca del centro. ¡Visitennos y no se arrepentiran!</p>
+          </div>
         </div>
-        <div>
-            <ul>
-                <a href=""><li>EVENTOS</li></a>
-                <a href=""><li>INFO ADICIONAL</li></a>
-                <a href=""><li>RECLAMOS</li></a>
-                <a href=""><li>COMUNIDAD</li></a>
-            </ul>
+      </div>
+    </section>
+    <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+      <div id="bg-contactos">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#1b2a4e" fill-opacity="1"
+            d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+          </path>
+        </svg>
+      </div>
+      <div class="container  border-top border-primary " style="max-width: 500px" id="contenedor-formulario">
+        <div class="text-center mb-4" id="titulo-formulario">
+          <div><img src="./img/support.png" alt="" class="img-fluid ps-5"></div>
+          <h2>Contactanos</h2>
+          <p class="fs-5">Estamos aqui para hacer realidad de tus proyectos</p>
         </div>
-        <div class="footerFormContainer">
-            <form class="footerForm">
-                <label for="email">NEWSLETTER</label>
-                <input type="email" name="email" class="footerInputEmail" id="email" placeholder="Newsletter">
-                <input type="image" src="../assets/img/correo-electronico.png" class="sendForm">
-            </form>
-        </div>
-        <div class="footerMedia">
-            <h4>FOLLOW US</h4>
-            <a href="https://twitter.com/home" target="_blank"><img src="../assets/img/twiter-logo.png" alt=""></a>
-            <a href="https://www.facebook.com/" target="_blank"><img src="../assets/img/facebook-logo.png" alt=""></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/instagram-logo.png" alt=""></a>
-        </div>
+        <form method="POST" data-netlify="true" action="#">
+          <div class="mb-3">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+          </div>
+          <div class="mb-3">
+            <input type="input" class="form-control" id="name" name="name" placeholder="Nombre">
+          </div>
+          <div class="mb-3">
+            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+          </div>
+          <div class="mb-3">
+            <button type="submit" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+      <p class="fs-5 px-3  pt-3">ExpertD. &copy; Todos Los Derechos Reservados 2023</p>
+      <div id="iconos">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+      </div>
     </footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
 </body>
 </html>

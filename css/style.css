@@ -3,57 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 main {
     background-color: #111010;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
-
 /* Header */
 .headerIndex {
     width: 100%;
     background-color: #2A2929;
     padding: 1rem;
 }
-
 .headerIndex .headerMenu .headerLogo {
     display: flex;
     flex-direction: column;
 }
-
 .headerIndex .headerMenu {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
-
 .headerIndex .headerLogo a {
     color: #8750B8;
     text-decoration: none;
 }
-
 .headerMenu .navBar ul {
     display: flex;
-
 }
-
 .headerMenu .navBar ul li {
     list-style: none;
     margin: 1.3rem;
 }
-
 .headerMenu .navBar ul a {
     text-decoration: none;
     color: #DFDADA;
     font-size: 1.4rem;
 }
-
 nav #toggle,
 nav label {
     display: none;
 }
-
 /* footer */
 footer {
     display: flex;
@@ -65,38 +54,30 @@ footer {
     height: 13rem;
     font-size: 1.1rem;
 }
-
 footer ul {
     list-style: none;
 }
-
 footer ul a {
     text-decoration: none;
     color: #D6D6D6;
 }
-
 .footerForm {
     display: flex;
     align-items: center;
 }
-
 .footerInputEmail::placeholder{
     color:  white;
 }
-
 .footerForm .sendForm {
     width: 1.6875rem;
     padding: .20rem;
 }
-
 .footerMedia {
     text-align: center;
 }
-
 .footerMedia a img {
     width: 1.6875rem;
 }
-
 /* Index 
 main */
 .divEdge {
@@ -104,7 +85,6 @@ main */
     text-align: center;
     font-size: .8rem;
 }
-
 .indexMain {
     display: flex;
     flex-direction: row;
@@ -112,13 +92,10 @@ main */
     height: 45rem;
     justify-content: center;
     align-items: center;
-
 }
-
 .indexCarouselItem {
     height: 100%;
 }
-
 #carouselItem-1 {
     background-image: url(../assets/img/mujer-velo-400x600.jpg);
     background-size: cover;
@@ -127,23 +104,18 @@ main */
     height: 90%;
     padding-top: 2.5rem;
 }
-
 .cardCarouselItem .carouselItem_1-h2 {
     text-align: center;
     font-size: 2.1rem;
 }
-
 #carouselItem-1:hover {
     transform: scale(1.20);
     transition: 0.7s;
-
 }
-
 #carouselItem-1 a {
     text-decoration: none;
     color: #d4d2d2;
 }
-
 #carouselItem-2 {
     background-image: url(../assets/img/horror-400x550.jpg);
     background-size: cover;
@@ -153,23 +125,19 @@ main */
     overflow: hidden;
     box-shadow: 1px 1px .625rem black;
 }
-
 .cardCarouselItem .carouselItem_2-h2 {
     text-align: center;
     padding-top: 2rem;
     font-size: 2.1rem;
 }
-
 #carouselItem-2:hover {
     transform: scale(1.14);
     transition: 0.7s;
 }
-
 #carouselItem-2 a {
     text-decoration: none;
     color: #d4d2d2;
 }
-
 #carouselItem-3 {
     background-image: url(../assets/img/callejon-abandonado-hospital-749x500.jpg);
     background-size: cover;
@@ -179,111 +147,90 @@ main */
     overflow: hidden;
     padding-top: 2.5rem;
 }
-
 .cardCarouselItem .carouselItem_3-h2 {
     text-align: center;
     font-size: 2.1rem;
 }
-
 #carouselItem-3:hover {
     transform: scale(1.20);
     transition: 0.7s;
 }
-
 #carouselItem-3 a {
     text-decoration: none;
     color: #d4d2d2;
 }
-
 .arrowsCarouselItem {
     display: none;
 }
-
 /* INDEX ROOMS */
-
 .indexRooms {
     display: flex;
     flex-direction: column;
     font-size: 1.1rem;
     color: #D6D6D6;
 }
-
 .roomSection {
     display: flex;
     flex-direction: row;
     margin: 2rem 5rem;
 }
-
 .divFirstRoom img {
     object-fit: cover;
     width: 18rem;
     height: 18rem;
     box-shadow: .125rem .125rem .625rem black;
 }
-
 .divSecondRoom img {
     object-fit: cover;
     width: 18rem;
     height: 18rem;
     box-shadow: .125rem .125rem .625rem black;
 }
-
 .divThirdRoom img {
     object-fit: cover;
     width: 18rem;
     height: 18rem;
     box-shadow: .125rem .125rem .625rem black;
 }
-
 .divText {
     width: 50rem;
     padding: 0rem 1.5rem;
 }
-
 .divText a {
     color: #b87f50;
     text-decoration: none;
 }
-
 /* Futurix 
 main section*/
-
 .mainFuturix {
     background-color: #D6D6D6;
     display: flex;
     justify-content: space-between;
     height: 37.5rem;
 }
-
 .mainFuturix .futurixTitle {
     padding: 8rem;
     font-size: 1.5625rem;
 }
-
 .mainFuturix .futurixTitle h1 {
     padding-bottom: 3rem;
 }
-
 .futurixMainImg img {
     height: 37.5rem;
     display: inline-block;
 }
-
 .futurixImg1 {
     width: 50%;
     object-fit: cover;
     float: left;
 }
-
 .futurixImg2 {
     width: 50%;
     object-fit: cover;
     float: right;
 }
-
 /* Futurix 
 secondary section */
-
 .futurixSecondarySection {
     width: 100%;
     height: 100%;
@@ -293,15 +240,12 @@ secondary section */
     padding: 30px 90px;
     display: flex;
 }
-
 .futurixArticle {
     width: 39.375rem;
     background-color: rgba(0, 0, 0, 0.2);
     margin-left: 20px;
 }
-
 /* Bookings main*/
-
 .mainBookings {
     width: 100%;
     display: grid;
@@ -316,7 +260,6 @@ secondary section */
     gap: .625rem;
     text-align: center;
 }
-
 .mainBookings h1 {
     grid-area: item1;
     text-align: center;
@@ -324,39 +267,32 @@ secondary section */
     color: #b87f50;
     padding-top: 1.25rem;
 }
-
 .mainBookings p {
     grid-area: item2;
     text-align: center;
     font-size: 1.6rem;
     color: #BCB9B9;
 }
-
 .bookingsForm {
     grid-area: item3;
     color: #747272;
     font-size: 1.3rem;
     text-align: center;
 }
-
 .bookingsForm form {
     display: flex;
     flex-direction: column;
     margin: 1rem 2rem;
     gap: .625rem;
 }
-
 .bookingsForm form input {
     margin: auto;
 }
-
-
 .mainBookings a img {
     width: 100%;
     height: 94%;
     object-fit: cover;
 }
-
 .mainBookings a {
     text-decoration: none;
     color: #b87f50;
@@ -374,7 +310,6 @@ secondary section */
     color: #BCB9B9;
     font-size: 1.6rem;
 }
-
 .bookingRooms {
     grid-area: item8;
     width: 100%;
@@ -386,7 +321,6 @@ secondary section */
     gap: .625rem;
     background-color: #161616;
 }
-
 .card {
     width: 90%;
     height: 90%;
@@ -396,36 +330,30 @@ secondary section */
     margin: auto;
     background-color: #474747;
 }
-
 .card div {
     width: 100%;
     height: 80%;
 }
-
 .card div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     filter: grayscale(1);
 }
-
 .card h2 {
     color: #b87f50;
     font-size: 1.2rem;
 }
-
 /* .card button{
     all: initial;
 } */
 .card div img:hover {
     filter: grayscale(0);
 }
-
 .card:hover {
     transform: scale(110%);
     transition: all 0.5s ease-out;
 }
-
 .bookingSchedule {
     grid-area: item7;
     height: 50%;
@@ -433,54 +361,43 @@ secondary section */
     background-color: #474747;
     padding: 1rem;
 }
-
 .bookingSchedule h2 {
     padding: 1rem;
     font-size: 1.4rem;
 }
-
 .bookingSchedule ul li {
     list-style: none;
 }
 /* Bookings main*/
-
 /* F.A.Q. */
-
 .faqMainSection h1 {
     color: #b87f50;
     text-align: center;
     padding: 30px;
     font-size: 3rem;
 }
-
 .faqQuestions {
     width: 49%;
     margin-left: 2rem;
 }
-
 .faqQuestions h2 {
     color: #b87f50;
     font-size: 2rem;
 }
-
 .faqQuestions a {
     text-decoration: none;
 }
-
 .faqQuestions p {
     color: #BCB9B9;
     font-size: 1.3rem;
 }
-
 .faqMainSection {
     background-image: url(../assets/img/scape-room.webp);
     background-size: 50% 100%;
     background-repeat: no-repeat;
     background-position: right;
 }
-
 /* contacto */
-
 .contactMain {
     display: flex;
     flex-direction: column;
@@ -488,18 +405,15 @@ secondary section */
     padding: 0 3.125rem;
     color: #b87f50;
 }
-
 .contactNumber {
     color: #b87f50;
     margin: 1rem;
     font-size: 1.5rem;
 }
-
 .contactNumber a {
     color: #BCB9B9;
     text-decoration: none;
 }
-
 .contactForm {
     display: flex;
     align-items: center;
@@ -513,7 +427,6 @@ secondary section */
     margin: 3.125rem auto;
     flex-grow: 1;
 }
-
 .contactFormInput {
     min-width: 340px;
     flex: 1;
@@ -521,7 +434,6 @@ secondary section */
     padding: 30px;
     order: 5;
 }
-
 .contactFormInput .formInput {
     width: 100%;
     padding: .4375rem;
@@ -531,18 +443,15 @@ secondary section */
     background: transparent;
     color: #fff;
 }
-
 .contactFormInput .formInput:focus {
     background: linear-gradient(to bottom, transparent, #222);
     outline: none;
     border-bottom: 3px solid #5bf;
 }
-
 .contactFormInput textarea {
     min-height: 9rem;
     resize: none;
 }
-
 .contactFormImg {
     flex: 1;
     display: flex;
@@ -551,25 +460,21 @@ secondary section */
     max-width: 25rem;
     order: 2;
 }
-
 .contactFormImg img {
     width: 100%;
     margin: auto;
     max-width: 12.5rem;
 }
-
 .contactFormInput input[type="submit"] {
     background: #5bf;
     border-bottom: none;
     padding: 12px;
 }
-
 .contactFormInput input[type="submit"]:hover {
     background: #57f;
     border-bottom: none;
     padding: 12px;
 }
-
 .contactFormInput input[type="submit"]:active {
     background: linear-gradient(to bottom, #5bf, #57f);
     box-shadow: #111;
@@ -580,25 +485,20 @@ secondary section */
     .headerIndex {
         padding: .5rem;
     }
-
     .headerMenu .navBar ul li a {
         font-size: .8rem;
     }
-
     .headerMenu .navBar ul li {
         list-style: none;
         margin: .7rem;
     }
-
     .headerMenu .headerLogo a img {
         width: 5rem;
     }
-
     .headerMenu .headerLogo a {
         font-size: .9rem;
         text-decoration: none;
     }
-
 /* HEADER */
 /* FOOTER */
     footer {
@@ -606,39 +506,30 @@ secondary section */
         padding: .4125rem;
         flex-wrap: wrap;
     }
-
     .footerFormContainer {
         padding: 0rem;
     }
-
     .footerForm {
         min-width: 12.8125rem;
         padding: 0rem;
     }
-
     footer ul a {
         display: none;
     }
-
     .footerInputEmail {
         width: 6rem;
     }
-
     .footerForm .sendForm {
         width: 1.6875rem;
     }
-
     .footerMedia {
         text-align: center;
     }
-
     .footerMedia a img {
         width: 1rem;
     }
-
 /* FOOTER */
 /* INDEX MAIN */
-
     .divEdge {
     background-color: #252e31;
     text-align: center;
@@ -648,15 +539,12 @@ secondary section */
     .indexMain {
         height: 25rem;
     }
-
     .cardCarouselItem .carouselItem_1-h2 {
         font-size: 1.3rem;
     }
-
     .cardCarouselItem .carouselItem_2-h2 {
         font-size: 1.3rem;
     }
-
     .cardCarouselItem .carouselItem_3-h2 {
         font-size: 1.3rem;
     }
@@ -666,26 +554,21 @@ secondary section */
         font-size: .6rem;
         margin: 0rem;
     }
-
     .divFirstRoom img {
         width: 10rem;
         height: 10rem;
     }
-
     .divSecondRoom img {
         width: 10rem;
         height: 10rem;
     }
-
     .divThirdRoom img {
         width: 10rem;
         height: 10rem;
     }
-
     .indexRooms .roomSection .divtext {
         padding: .625rem;
     }
-
     .roomSection {
         width: 90%;
         height: 10rem;
@@ -693,21 +576,17 @@ secondary section */
     }
     /* INDEX ROOMS */
     /* RESERVAS */
-
     .mainBookings h1{
         font-size: 1.6rem;
     }
-
     .mainBookings p{
         font-size: .6rem;
         width: 90%;
         margin: auto;
     }
-
     .bookingsForm{
         font-size: 1rem;
     }
-    
     .mainBookings {
         width: 100%;
         display: grid;
@@ -722,7 +601,6 @@ secondary section */
         gap: .625rem;
         text-align: center;
     }
-
     .bookingSchedule{
         grid-area: item3;
         margin-top: 11rem;
@@ -737,7 +615,6 @@ secondary section */
     .bookingSchedule ul li a{
         font-size: .8rem;
     }
-
     .bookingRooms {
         grid-area: item8;
         width: 100%;
@@ -762,39 +639,32 @@ secondary section */
         font-size: .8rem;
     }
 }
-
 @media(max-width:425px) {
     .headerMenu .navBar {
         width: 100%;
         height: 0;
         overflow: hidden;
     }
-
     .headerMenu .navBar ul {
         flex-direction: column;
         align-items: center;
         padding: 0.5rem 0px;
     }
-
     .headerMenu label {
         display: flex;
         color: white;
         cursor: pointer;
     }
-
     .headerMenu #toggle:checked~.navBar {
         height: 100%;
     }
-
     .headerMenu .headerLogo a img {
         width: 3.5rem;
     }
-
     .headerMenu .headerLogo a {
         font-size: .56rem;
         text-decoration: none;
     }
-
     /* HEADER */
     /* INDEX */
     .indexMain {
@@ -802,28 +672,23 @@ secondary section */
         display: block;
         overflow: hidden;
     }
-
     .indexCarouselItem {
         scroll-margin-top: 6rem;
         position: relative;
         margin-left: 10%;
     }
-
     #carouselItem-1 {
         width: 80%;
         height: 100%;
     }
-
     #carouselItem-3 {
         width: 80%;
         height: 100%;
     }
-
     #carouselItem-2 {
         width: 80%;
         height: 100%;
     }
-
     .arrowsCarouselItem {
         height: 80%;
         width: 100%;
@@ -832,79 +697,63 @@ secondary section */
         justify-content: space-between;
         padding: 1.25rem;
     }
-
     #carouselItem-2:hover {
         transform: none;
         transition: none;
     }
-
     #carouselItem-1:hover {
         transform: none;
         transition: none;
     }
-
     #carouselItem-3:hover {
         transform: none;
         transition: none;
     }
-
     .indexRooms {
         font-size: .4rem;
         margin: 0rem;
     }
-
     .divFirstRoom img {
         width: 7rem;
         height: 7rem;
     }
-
     .divSecondRoom img {
         width: 7rem;
         height: 7rem;
     }
-
     .divThirdRoom img {
         width: 7rem;
         height: 7rem;
     }
-
     .roomSection {
         width: 90%;
         height: 7rem;
         margin: 1rem;
     }
-
     /* INDEX */
     /* FOOTER */
     .footerForm {
         min-width: 9rem;
         padding: 0rem;
     }
-
     .footerForm label {
         display: none;
     }
-
     .footerInputEmail::placeholder{
         color: rgb(92, 92, 92);
     }
-
     /* FOOTER */
     /* RESERVAS */
-
     .mainBookings h1{
         font-size: 1.2rem;
     }
-    
     .mainBookings p{
         font-size: .5rem;
         width: 90%;
     }
-    
     .bookingsForm{
         font-size: .6rem;
     }
-    
     .mainBookings {
         width: 100%;
         display: grid;
@@ -919,7 +768,6 @@ secondary section */
         gap: .625rem;
         text-align: center;
     }
-    
     .bookingSchedule{
         grid-area: item3;
         margin-top: 11rem;
@@ -934,7 +782,6 @@ secondary section */
     .bookingSchedule ul li a{
         font-size: .8rem;
     }
-    
     .bookingRooms {
         grid-area: item8;
         width: 100%;
@@ -967,4 +814,92 @@ secondary section */
     .card h2 {
         font-size: .8rem;
     }
+}
+@media(max-width:320px){
+    /* Index */
+    .indexRooms {
+        font-size: .3rem;
+        margin: 0rem;
+    }
+    .divFirstRoom img {
+        width: 5rem;
+        height: 5rem;
+    }
+    .divSecondRoom img {
+        width: 5rem;
+        height: 5rem;
+    }
+    .divThirdRoom img {
+        width: 5rem;
+        height: 5rem;
+    }
+    .roomSection {
+        width: 90%;
+        height: 6rem;
+        margin: .6rem;
+    }
+    .roomSection .divText{
+        padding: .3rem;
+    }
+    .mainBookings {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 2.5rem 2.5rem 9rem 43rem 10rem 20rem;
+        grid-template-areas:
+            "item1 item1 item1 item1 item1"
+            "item2 item2 item2 item2 item2"
+            "item4 item4 item4 item4 item4"
+            "item8 item8 item8 item8 item9"
+            "item11 item11 item11 item11 item12"
+            "item13 item13 item13 item13 item13"
+        ;
+        gap: .0rem;
+        text-align: center;
+    }
+    .bookingSedes{
+        height: 7rem;
+    }
+    .bookingSedes a{
+        margin: 0;
+        font-size: .7rem;
+    }
+    .bookingsForm{
+        grid-area: item11;
+    }
+    .bookingSchedule{
+        grid-area: item13;
+        margin-top: 0rem;
+        width: 100%;
+        height: 100%;
+    }
+}
+/* pagina con bootstrap (SEDES) */
+.mainBootstrap{
+    background-color: #cac9c9;
+}
+.carousel-inner{
+    max-height: 42rem;
+    object-fit: contain;
+}
+.carousel-inner img{
+    width: 100%;
+}
+#img-equipo{
+    width: 70%;
+    height: 20rem;
+    object-fit: contain;
+}
+#local{
+    display: flex;
+    justify-content: space-between;
+}
+.mapa{
+    background-image: url(../assets/img/mapa2.png);
+    width: 100%;
+    height: 35rem;
+}
+.wrapper-local{
+    width: 50%;
+    padding: 6.25rem;
 }
