@@ -1,0 +1,48 @@
+@media(max-width:320px){
+    .mainIndex{
+        h1{
+            font-size: 1rem;
+        }
+        .indexMain{
+            height: 13rem;
+            h3{
+                font-size: .9rem;
+            }
+        }
+        .edge{
+            h3{
+            font-size: .6rem;
+            }
+        }
+        .indexRooms{
+            font-size: .3rem;
+            margin: 0rem;
+            article{
+                height: 6rem;
+                margin: .6rem;
+                a{
+                    img{
+                        width: 5rem;
+                        height: 5rem;
+                    }
+                }
+            }
+        }
+    }
+    .mainBookings{
+        @include grid(repeat(4, 25%),2.5rem 2.5rem 9rem 43rem 10rem 20rem,"item1 item1 item1 item1" "item2 item2 item2 item2" "item4 item4 item4 item4" "item8 item8 item8 item8" "item11 item11 item11 item11" "item13 item13 item13 item13",0rem);
+        width: 100%;
+        .bookingSedes{
+            height: 7rem;
+        }
+        .bookingsForm{
+            grid-area: item11;
+        }
+        .bookingSchedule{
+            grid-area: item13;
+            margin-top: 0rem;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.mainBootstrap{
+    background-color: #cac9c9;
+    section{
+        #carousel{
+            .carousel-inner{
+                max-height: 42rem;
+                object-fit: contain;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .equipo{
+        div{
+            #img-equipo{
+                width: 70%;
+                height: 20rem;
+                object-fit: contain;
+            }
+        }
+        #local{
+            display: flex;
+            justify-content: space-between;
+            .mapa{
+                background-image: url(../assets/img/mapa2.png);
+                width: 100%;
+                height: 35rem;
+            }
+            div{
+                .wrapper-local{
+                    width: 50%;
+                    padding: 6.25rem;
+                }
+            }
+        }
+    }
+}

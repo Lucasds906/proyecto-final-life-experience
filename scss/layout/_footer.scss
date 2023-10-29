@@ -1,0 +1,41 @@
+footer{
+    @include flex(row,nowrap,space-evenly,center,none);
+    background-color: $header-color;
+    color: $navbar-letter-color;
+    padding: 10px;
+    height: 13rem;
+    font-size: map-get($size, text);
+    .list{
+        div{
+            ul{
+                a{
+                    color: $navbar-letter-color;
+                }
+            }
+        }
+    }
+    .form{
+        form{
+            @include flex(row,nowrap,center,center,none);
+            input[type="email"]{
+                &::placeholder{
+                    color: white;
+                }
+            }
+            .sendForm{
+                width: 2rem;
+                padding: .20rem;
+            }
+        }
+    }
+    .media{
+        div{
+            text-align: center;
+            a{
+                img{
+                    width: 1.6875rem;
+                }
+            }
+        }
+    }
+}

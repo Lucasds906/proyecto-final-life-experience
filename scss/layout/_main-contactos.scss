@@ -1,0 +1,78 @@
+.contactMain{
+    @include flex(column,nowrap,center,center,none);
+    h1{
+        background-color: $main-color;
+        color: $title-color;
+        padding: 1.25rem;
+    }
+    .contactNumber{
+        color: $title-color;
+        margin: 1rem;
+        font-size: map-get($size , navbar );
+        a{
+            color: $text-color;
+        }
+    }
+    .contactForm{
+        @include flex(row,wrap,center,center,none);
+        flex-grow: 1;
+        background: #333;
+        padding: 20px;
+        border: 20px solid black;
+        outline: 4px dashed $title-color;
+        max-width: 50%;
+        margin: 3.125rem auto;
+        .contactFormInput{
+            min-width: 340px;
+            flex: 1;
+            text-align: center;
+            padding: 30px;
+            order: 5;
+            input, textarea{
+                width: 100%;
+                padding: .4375rem;
+                margin: .375rem 0;
+                border: none;
+                border-bottom: 3px solid $title-color;
+                background: transparent;
+                color: $navbar-letter-color;
+                &[type="submit"]{
+                    background: #5bf;
+                    border-bottom: none;
+                    padding: 12px;
+                    &:hover{
+                        background: #57f;
+                        border-bottom: none;
+                        padding: 12px;
+                    }
+                    &:active{
+                        background: linear-gradient(to bottom, #5bf, #57f);
+                        box-shadow: black;
+                    }
+                }
+                &:focus{
+                    background: linear-gradient(to bottom, transparent, #551010);
+                    outline: none;
+                    border-bottom: 3px solid #5bf;
+                }
+            }
+            textarea{
+                min-height: 9rem;
+                resize: none;
+            }
+        }
+        div{
+            flex: 1;
+            display: flex;
+            padding: .625rem;
+            min-width: 18.75rem;
+            max-width: 25rem;
+            order: 2; 
+            img{
+                width: 100%;
+                margin: auto;
+                max-width: 12.5rem;
+            }           
+        }
+    }
+}

@@ -1,0 +1,90 @@
+.mainIndex{
+    h1{
+        background-color: $edge-color;
+        text-align: center;
+        font-size: map-get($size , title );
+    }
+    .edge{
+        @extend h1;
+        font-size: map-get($size, text);
+    }
+    .indexMain{
+        @include flex(row,nowrap,center,center,none);
+        width: 100%;
+        height: 45rem;
+        h3{
+            text-align: center;
+            font-size: map-get($size, subtitle );
+        }
+        #carouselItem-1{
+            background-image: url(../assets/img/mujer-velo-400x600.jpg);
+            background-size: cover;
+            background-position: center;
+            width: 25%;
+            height: 90%;
+            padding-top: 2.5rem;
+            &:hover{
+                transform: scale(1.20);
+                transition: 0.7s;
+            }
+            .arrowsCarouselItem{
+                display: none;
+            }
+        }
+        #carouselItem-2{
+            background-image: url(../assets/img/horror-400x550.jpg);
+            background-size: cover;
+            background-position: center;
+            width: 37%;
+            height: 100%;
+            overflow: hidden;
+            box-shadow: 1px 1px .625rem black;
+            &:hover{
+                transform: scale(1.20);
+                transition: 0.7s;
+            }
+            .arrowsCarouselItem{
+                display: none;
+            }
+        }
+        #carouselItem-3{
+            background-image: url(../assets/img/callejon-abandonado-hospital-749x500.jpg);
+            background-size: cover;
+            background-position: center;
+            width: 25%;
+            height: 90%;
+            overflow: hidden;
+            padding-top: 2.5rem;
+            &:hover{
+                transform: scale(1.20);
+                transition: 0.7s;
+            }
+            .arrowsCarouselItem{
+                display: none;
+            }
+        }
+    }
+    .indexRooms{
+        @include flex(column,nowrap,center,left,none);
+        color: $text-color;
+        article{
+            @include flex(row,nowrap,left,center,none);
+            margin: 2rem 5rem;
+            a{
+                img{
+                    object-fit: cover;
+                    width: 18rem;
+                    height: 18rem;
+                    box-shadow: .125rem .125rem .625rem black;
+                }
+            }
+            div{
+                width: 50rem;
+                padding: 0rem 1.5rem;
+                a{
+                    color: $title-color;
+                }
+            }
+        }
+    }
+}
