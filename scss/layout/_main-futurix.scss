@@ -3,7 +3,7 @@
     background-color: #D6D6D6;
     height: 37.5rem;
     .futurixTitle{
-        padding: 8rem;
+        width: 27%;margin: auto;
         font-size: map-get($size, navbar );
         h1{
             padding-bottom: 3rem;
@@ -11,6 +11,7 @@
         }
     }
     .futurixMainImg{
+        width: 73%;
         height: 37.5rem;
         img{            
             display: inline-block;

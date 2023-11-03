@@ -1,49 +1,65 @@
 .contactMain{
     @include flex(column,nowrap,center,center,none);
+    background-image: linear-gradient(to right bottom, #131625, #181323, #1d0f1f, #210a1a, #240613, #330917, #430a18, #530c16, #79101e, #a11523, #c91c27, #f22727);
+    .border{
+        width: 20%;
+        height: .25rem;
+        background-color: #201635;
+    }
     h1{
-        background-color: $main-color;
+        background-color: transparent;
         color: $title-color;
         padding: 1.25rem;
     }
+    h4{
+        padding: 1.25rem;
+        color: $text-color;
+        font-size: map-get($size, title );
+    }
     .contactNumber{
-        color: $title-color;
-        margin: 1rem;
+        margin: 3rem;
+        h3{
+            color: $title-color;
+            padding: .5rem;
+        }
         font-size: map-get($size , navbar );
         a{
             color: $text-color;
+            padding-left: 3rem;
         }
     }
     .contactForm{
         @include flex(row,wrap,center,center,none);
         flex-grow: 1;
-        background: #333;
-        padding: 20px;
-        border: 20px solid black;
-        outline: 4px dashed $title-color;
-        max-width: 50%;
+        background: #33333398;
+        padding: 1.25rem;
+        border: .5rem solid black;
+        outline: .15rem dashed $title-color;
+        width: 45%;
         margin: 3.125rem auto;
         .contactFormInput{
-            min-width: 340px;
+            width: 21.25rem;
+            min-width: 15rem;
             flex: 1;
             text-align: center;
-            padding: 30px;
+            padding: 1.875rem;
             order: 5;
             input, textarea{
                 width: 100%;
                 padding: .4375rem;
                 margin: .375rem 0;
                 border: none;
-                border-bottom: 3px solid $title-color;
+                border-bottom: .1875rem solid $title-color;
                 background: transparent;
                 color: $navbar-letter-color;
                 &[type="submit"]{
                     background: #5bf;
                     border-bottom: none;
-                    padding: 12px;
+                    padding: .75rem;
                     &:hover{
                         background: #57f;
                         border-bottom: none;
-                        padding: 12px;
+                        padding: .75rem;
                     }
                     &:active{
                         background: linear-gradient(to bottom, #5bf, #57f);
@@ -53,11 +69,11 @@
                 &:focus{
                     background: linear-gradient(to bottom, transparent, #551010);
                     outline: none;
-                    border-bottom: 3px solid #5bf;
+                    border-bottom: .1875rem solid #5bf;
                 }
             }
             textarea{
-                min-height: 9rem;
+                height: 7rem;
                 resize: none;
             }
         }
@@ -65,7 +81,7 @@
             flex: 1;
             display: flex;
             padding: .625rem;
-            min-width: 18.75rem;
+            min-width: 13.75rem;
             max-width: 25rem;
             order: 2; 
             img{

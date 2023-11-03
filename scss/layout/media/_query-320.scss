@@ -32,17 +32,86 @@
     .mainBookings{
         @include grid(repeat(4, 25%),2.5rem 2.5rem 9rem 43rem 10rem 20rem,"item1 item1 item1 item1" "item2 item2 item2 item2" "item4 item4 item4 item4" "item8 item8 item8 item8" "item11 item11 item11 item11" "item13 item13 item13 item13",0rem);
         width: 100%;
+        h1{
+            font-size: 1rem;
+        }
         .bookingSedes{
             height: 7rem;
+            a{
+                font-size: .6rem;
+            }
         }
         .bookingsForm{
             grid-area: item11;
+            form{
+                input[type=date]{
+                    width: 80%;
+                }
+            }
         }
         .bookingSchedule{
             grid-area: item13;
             margin-top: 0rem;
             width: 100%;
             height: 100%;
+        }
+    }
+    .contactMain{
+        h1{
+            font-size: 1rem;
+        }
+        h4{
+            font-size: .6rem;
+        }
+        .contactNumber{
+            margin: 0;
+            h3{
+                font-size: .6rem;
+            }
+            a{
+                padding-left: .8rem;
+            }
+        }
+        .contactForm{
+            background: transparent;
+            width: 80%;
+            min-width: none;
+            border: none;
+            outline: none;
+            margin: 0;
+            padding: 0;
+            .contactFormInput{
+                min-width: 0rem;
+                margin-top: 5rem;
+                margin-bottom: 2rem;
+                padding: 0;
+                input{
+                    width: 100%;
+                    min-width: none;
+                }
+                textarea{
+                    height: 4rem;
+                }
+            }
+            div{
+                display: none;
+            }
+        }
+    }
+    .futurixArticle{
+        margin: 0rem;
+        padding: .5rem;
+        article{
+            margin-left: 0rem;
+            padding: 0;
+            div{
+                h2{                        
+                font-size: .8rem;
+                }
+                p{
+                    font-size: .6rem;
+                }
+            }
         }
     }
 }

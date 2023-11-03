@@ -140,4 +140,114 @@
             }
         }
     }
+    .faqMainSection{
+        background-image: linear-gradient(to right bottom, #131625, #181323, #1d0f1f, #210a1a, #240613, #330917, #430a18, #530c16, #79101e, #a11523, #c91c27, #f22727);
+        h1{
+            font-size: 1.4rem;
+        }
+        .faqImgs{
+            flex-wrap: wrap;
+            gap: .5rem;
+            div{
+                img{            
+                width: 5.6rem;
+                height: 5.6rem;
+                }
+                h3{
+                    width: 8rem;
+                    height: 8rem;
+                    font-size: .6rem;
+                }
+            }
+        }
+        .questions{
+            width: 80%;
+            margin: auto;
+            h2{
+                font-size: map-get($size, text );
+            }
+            p{
+                font-size: .8rem;
+            }
+        }
+    }
+    .contactMain{
+        h1{
+            font-size: 1.5rem;
+        }
+        h4{
+            font-size: 1.2rem;
+        }
+        .contactNumber{
+            h3{
+                font-size: 1.1rem;
+            }
+        }
+        .contactForm{
+            width: 60%;
+            border: .5rem solid black;
+            .contactFormInput{
+                input{
+                    padding: .350rem;
+                    margin: .300rem 0;
+                }
+                textarea{
+                    height: 4rem;
+                }
+            }
+            div{
+                img{                
+                width: 7rem;
+                }
+            }
+        }
+    }
+    .mainFuturix{
+        height: 20rem;
+        .futurixTitle{
+            width: 27%;
+            margin: auto;
+            font-size: 1rem;
+            h1{
+                padding-bottom: 3rem;
+                
+            }
+        }
+        .futurixMainImg{
+            width: 73%;
+            height: 20rem;
+            img{            
+                display: inline-block;
+                width: 50%;
+                object-fit: cover;
+                height: 100%;
+                &:first-child{
+                    float: left;
+                }
+                .futurixImg2{
+                    float: right;
+                }
+            }
+        }
+    }
+    .futurixArticle{
+        width: 100%;
+        height: 100%;
+        background-image: url(../assets/img/interior-casa.jpg);
+        background-size: cover;
+        margin: auto;
+        display: flex;
+        article{
+            width: 39.375rem;
+            margin-left: 1.25rem;
+            div{
+                h2{                        
+                font-size: 1.3rem;
+                }
+                p{
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
 }
