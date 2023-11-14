@@ -1,3 +1,12 @@
+.sedesHeader{
+    background-color: rgb(187, 137, 235);
+    .btn{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: transparent;
+        color: rgb(204, 83, 83);
+    }
+    
+}
 .mainBootstrap{
     background-color: #cac9c9;
     section{
@@ -8,6 +17,18 @@
                 img{
                     width: 100%;
                 }
+            }
+        }
+    }
+    .w-100{
+        article{
+            .icono-wrap{
+                div{
+                    h3{
+                        color: rgb(204, 83, 83)
+                    }
+                }
+                color: black;
             }
         }
     }

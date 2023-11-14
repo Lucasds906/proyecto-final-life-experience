@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -467,12 +468,31 @@ footer {
   background-image: url(../assets/img/interior-casa.jpg);
   background-size: cover;
   font-size: 1.5625rem;
-  padding: 30px 90px;
-  display: flex; }
+  padding: 30px 90px; }
   .futurixArticle article {
     width: 39.375rem;
     background-color: rgba(0, 0, 0, 0.2);
     margin-left: 20px; }
+
+.futurixArticle2 {
+  width: 100%;
+  background-color: #D6D6D6;
+  text-align: center; }
+  .futurixArticle2 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 40%;
+    font-size: 1.5rem;
+    margin: auto; }
+  .futurixArticle2 a {
+    font-size: 1.5rem;
+    color: #b87f50; }
+
+.sedesHeader {
+  background-color: #bb89eb; }
+  .sedesHeader .btn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: transparent;
+    color: #cc5353; }
 
 .mainBootstrap {
   background-color: #cac9c9; }
@@ -481,6 +501,10 @@ footer {
     object-fit: contain; }
     .mainBootstrap section #carousel .carousel-inner img {
       width: 100%; }
+  .mainBootstrap .w-100 article .icono-wrap {
+    color: black; }
+    .mainBootstrap .w-100 article .icono-wrap div h3 {
+      color: #cc5353; }
   .mainBootstrap .equipo div #img-equipo {
     width: 70%;
     height: 20rem;
@@ -495,6 +519,48 @@ footer {
     .mainBootstrap .equipo #local div .wrapper-local {
       width: 50%;
       padding: 6.25rem; }
+
+.m-404 {
+  height: 100vh;
+  background-image: url(../assets/img/404.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+  .m-404 .main-404 {
+    height: 70%;
+    width: 100%;
+    text-align: center; }
+    .m-404 .main-404 h1, .m-404 .main-404 .mainIndex .edge, .mainIndex .m-404 .main-404 .edge {
+      color: #ac6429;
+      font-size: 5rem;
+      padding-top: 10rem; }
+    .m-404 .main-404 div {
+      margin: auto;
+      width: fit-content; }
+      .m-404 .main-404 div:hover::after {
+        content: "Lamentamos que esto haya sucedido. La próxima vez, esperamos que seas más ingenioso";
+        background-color: rgba(36, 33, 33, 0.623);
+        display: block;
+        color: white; }
+      .m-404 .main-404 div a {
+        font-size: 1.5rem;
+        color: white; }
+  .m-404 .sec2 {
+    background-color: #111010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%; }
+    .m-404 .sec2 h2 {
+      width: 50%;
+      text-align: right;
+      padding: 2rem;
+      font-size: 8rem;
+      color: rgba(48, 43, 43, 0.781); }
+    .m-404 .sec2 div {
+      width: 50%;
+      background-color: #111010; }
+      .m-404 .sec2 div p {
+        color: #DFDADA; }
 
 @media (max-width: 768px) {
   header {
@@ -651,7 +717,21 @@ footer {
       .futurixArticle article div h2 {
         font-size: 1.3rem; }
       .futurixArticle article div p {
-        font-size: .8rem; } }
+        font-size: .8rem; }
+  .futurixArticle2 p {
+    width: 50%;
+    font-size: 1rem; }
+  .futurixArticle2 a {
+    font-size: 1rem; }
+  .m-404 .main-404 {
+    background-image: url(../assets/img/404.jpg);
+    object-fit: contain;
+    background-position: 20%; }
+    .m-404 .main-404 h1, .m-404 .main-404 .mainIndex .edge, .mainIndex .m-404 .main-404 .edge {
+      font-size: 3rem; }
+  .m-404 .sec2 h2 {
+    padding-top: 0;
+    font-size: 5rem; } }
 
 @media (max-width: 425px) {
   header {
@@ -828,7 +908,7 @@ footer {
   .mainFuturix {
     height: 20rem; }
     .mainFuturix .futurixTitle {
-      margin: 0%;
+      margin: auto;
       width: 27%;
       font-size: 1rem; }
       .mainFuturix .futurixTitle h1, .mainFuturix .futurixTitle .mainIndex .edge, .mainIndex .mainFuturix .futurixTitle .edge {
@@ -843,7 +923,31 @@ footer {
       .futurixArticle article div h2 {
         font-size: 1.1rem; }
       .futurixArticle article div p {
-        font-size: .8rem; } }
+        font-size: .8rem; }
+  .futurixArticle2 p {
+    width: 80%;
+    font-size: .8rem; }
+  .futurixArticle2 a {
+    font-size: .9rem; }
+  .m-404 .main-404 {
+    height: 50%;
+    background-image: radial-gradient(circle, #3f4448, #383d41, #31363a, #2b3034, #24292d, #202529, #1c2124, #181d20, #161a1d, #14181a, #111517, #0e1214); }
+    .m-404 .main-404 h1, .m-404 .main-404 .mainIndex .edge, .mainIndex .m-404 .main-404 .edge {
+      font-size: 2rem; }
+    .m-404 .main-404 div:hover::after {
+      font-size: .8rem; }
+    .m-404 .main-404 div a {
+      font-size: 1rem; }
+  .m-404 .sec2 {
+    flex-direction: column; }
+    .m-404 .sec2 h2 {
+      text-align: center;
+      font-size: 3rem;
+      padding: 0; }
+    .m-404 .sec2 p {
+      text-align: center;
+      padding: 0;
+      font-size: .8rem; } }
 
 @media (max-width: 320px) {
   .mainIndex h1, .mainIndex .edge {

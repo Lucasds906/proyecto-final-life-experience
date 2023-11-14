@@ -34,10 +34,24 @@
     background-size: cover;
     font-size: 1.5625rem;
     padding: 30px 90px;
-    display: flex;
     article{
         width: 39.375rem;
         background-color: rgba(0, 0, 0, 0.2);
         margin-left: 20px;
+    }
+}
+.futurixArticle2{
+    width: 100%;
+    background-color: #D6D6D6;
+    text-align: center;
+    p{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 40%;
+        font-size: 1.5rem;
+        margin: auto;
+    }
+    a{
+        font-size: 1.5rem;
+        color: $title-color;
     }
 }

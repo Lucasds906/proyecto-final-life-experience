@@ -250,4 +250,29 @@
             }
         }
     }
+    .futurixArticle2{
+        p{
+            width: 50%;
+            font-size: 1rem;
+        }
+        a{
+            font-size: 1rem;
+        }
+    }
+    .m-404{
+        .main-404{
+            background-image: url(../assets/img/404.jpg);
+            object-fit: contain;
+            background-position: 20%;
+            h1{
+                font-size: 3rem;
+            }
+        }
+        .sec2{            
+            h2{
+                padding-top: 0;
+                font-size: 5rem;
+            }
+        }
+    }
 }

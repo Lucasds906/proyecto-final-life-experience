@@ -1,0 +1,52 @@
+.m-404{
+    height: 100vh;
+    background-image: url(../assets/img/404.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    .main-404{
+        height: 70%;
+        width: 100%;
+        text-align: center;
+        h1{
+            color: #ac6429;
+            font-size: 5rem;
+            padding-top: 10rem;
+        }
+        div{
+            margin: auto;
+            width: fit-content;
+            &:hover::after{
+                content: "Lamentamos que esto haya sucedido. La próxima vez, esperamos que seas más ingenioso";
+                background-color: rgba(36, 33, 33, 0.623);
+                display: block;
+                color: rgb(255, 255, 255);
+            }
+            a{
+                font-size: 1.5rem;
+                color: white;
+            }
+        }
+    }
+    .sec2{
+        background-color: $main-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30%;
+        h2{
+            width: 50%;
+            text-align: right;
+            padding: 2rem;
+            font-size: 8rem;
+            color: rgba(48, 43, 43, 0.781);
+        }
+        div{
+            width: 50%;
+            background-color: $main-color;
+            p{
+                color: $navbar-letter-color;
+            }
+        }
+    }
+}
+
