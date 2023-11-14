@@ -197,5 +197,5 @@
     "yargs": "^17.7.2",
     "yargs-parser": "^20.2.9"
   },
-  "description": ""
+  "description": "> Este proyecto se basa en la creación de un sitio web para la contratación de servicios de salas de escape en la ciudad de Buenos Aires."
 }
